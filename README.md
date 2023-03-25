@@ -8,7 +8,7 @@ To get started with the app, clone this repository to your local machine and imp
 
 ## HOW TO USE APP
 
-When you open the app, you will be taken to the main screen, which displays a list of all the movies currently in the database. To add a new movie, click on the floating action button in the bottom right corner of the screen. This will take you to the Add Movie screen, where you can enter the movie's details, including the title, release date, director, description, and image.
+When you open the app, you will be taken to the main screen, which displays a list of all the movies currently in the database. To add a new movie, click on the floating action button in the bottom right corner of the screen. This will take you to the Add Movie screen, where you can enter the movie's details, including the title, release date, director, description.
 
 <img width="326" alt="Ekran Resmi 2023-03-25 17 53 09" src="https://user-images.githubusercontent.com/61374255/227724948-71880b35-d44b-4c30-ba1e-6acddb155152.png">
 
@@ -22,7 +22,8 @@ To delete a movie, simply swipe left on the movie in the list and click the Dele
 
 To search for a movie by name, enter the movie's title in the search bar at the top of the screen. The app will filter the movie list based on your search query.
 
-To sort the movie list by release date, click on the Sort button in the top right corner of the screen. This will sort the movies by release date in ascending order. Click the Sort button again to reverse the sort order and sort the movies by release date in descending order.
+To sort the movie list by release date, click on the Sort button in the top right corner of the screen. This will sort the movies by release date in dascending order. 
+When we click the button again, it returns to its original state..
 
 ## Architecture and Libraries Used
 
