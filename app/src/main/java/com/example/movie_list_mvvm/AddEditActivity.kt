@@ -3,24 +3,19 @@ package com.example.movie_list_mvvm
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
-import android.graphics.Bitmap
-import android.graphics.drawable.BitmapDrawable
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.MediaStore
-import android.util.Base64.encodeToString
 import androidx.lifecycle.ViewModelProvider
-import com.bumptech.glide.Glide
 import com.example.movie_list_mvvm.databinding.ActivityAddEditBinding
 import com.example.movie_list_mvvm.db.Movie
 import com.example.movie_list_mvvm.utils.Utility.Companion.isNullOrEmpty
 import com.example.movie_list_mvvm.utils.Utility.Companion.showError
 import com.example.movie_list_mvvm.utils.dataBinding
 import com.example.movie_list_mvvm.viewModel.ViewModelMovie
-import java.io.ByteArrayOutputStream
+
 import java.util.*
-import android.util.Base64
+
 
 
 class AddEditActivity : AppCompatActivity() {
