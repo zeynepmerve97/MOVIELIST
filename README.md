@@ -29,6 +29,6 @@ To sort the movie list by release date, click on the Sort button in the top righ
 The app is built using the MVVM architecture pattern, which separates the business logic and presentation layers of the app. Data binding is used to bind the UI elements to the data in the ViewModel, reducing boilerplate code and making the code easier to read and maintain. The ROOM database library is used to persist the movie data to a local database on the device.
 
 Other libraries used in the app include:
-. LiveData: for observing changes in the data and updating the UI accordingly
+* LiveData: for observing changes in the data and updating the UI accordingly
 
 
